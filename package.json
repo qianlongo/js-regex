@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/qianlongo/js-regex/issues"
   },
-  "homepage": "https://github.com/qianlongo/js-regex#readme"
+  "homepage": "https://github.com/qianlongo/js-regex#readme",
+  "devDependencies": {}
 }

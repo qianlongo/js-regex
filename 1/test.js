@@ -16,3 +16,23 @@
   // 众向匹配
   console.log(string.match(regex))
 }
+
+{
+  const string = 'asAZ-'
+  const regex = /[0-9a-z\-]/g
+
+  console.log(string.match(regex))
+}
+
+{
+  const path = '/home/dd'
+  const regex = /\/home\/[^(redirect)]/
+
+  console.log(regex.test(path))
+}
+
+{
+  const string = 'assdfds'
+  const regex = /[^abcfd]/g
+  console.log(string.match(regex))
+}

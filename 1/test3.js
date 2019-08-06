@@ -14,3 +14,10 @@ utils.console('goodbye', /goodbye|bye/, 'match')
  */
 
  utils.console('#ffbbad#Fc01DF#FFF#ffE', /#\w{6}|#\w{3}/g, 'match')
+
+ // 2 匹配时间
+ /**
+ * 23:59 
+ * 02:07
+ */
+utils.console('19:00', /^([01][0-9]|[2][1-3]):[0-5][0-9]$/)

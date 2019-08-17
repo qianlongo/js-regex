@@ -11,3 +11,8 @@ const checkTime = (str) => {
     str[1] === '数字'
   }
 }
+
+{
+  const regex = /\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])/
+  utils.console('2018-10-23', regex)
+}

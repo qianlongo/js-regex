@@ -9,3 +9,4 @@ console.log('hello'.replace(/(?!l)/g, '#'))
 
 console.log('123456789'.replace(/(?!^)(?=(\d{3})+$)/g, ','))
 utils.console('a1b a2b a3b ab', /a[123]*b/g, 'match')
+utils.console('.1223423.4', /\d\./g)

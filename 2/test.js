@@ -17,3 +17,7 @@ const utils = require('../utils')
   const string3 = '[JS] Lesson_04.mp4'
   console.log(string3.replace(/\b/g, '#'))
 }
+{
+  const string4 = '[JS] Lesson_04.mp4'
+  console.log(string4.replace(/\B/g, '#'))
+}

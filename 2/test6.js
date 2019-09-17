@@ -6,3 +6,4 @@ function format(num) {
 }
 
 console.log(format(1888))
+
